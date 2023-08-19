@@ -18,13 +18,13 @@ then sets many sysctl values accordingly.
 
 **Warning: Response is in very early alpha state**
 
-[x] Detect SATA HDD and SSD from whole drives (sda) or partitions (sda1).  
-[] Detect NVMe SSD from whole drives (nvme0n1) or partitions (nvme0n1p1).  
-[] Detect loop devices.  
-[] Detect IDE drives.  
-[] Detect floppy disks.  
-[] Detect USB disks.  
-[] Detect underlying hard disk from lvm or encrypted volume.  
-[] Come up with a formula for swappiness and swap priority.  
-[] Add zram support.  
+* ~~Detect SATA HDD and SSD from whole drives (sda) or partitions (sda1).~~
+* Detect NVMe SSD from whole drives (nvme0n1) or partitions (nvme0n1p1).
+* Detect loop devices.
+* Detect IDE drives.
+* Detect floppy disks.
+* Detect USB disks.
+* Detect underlying hard disk from lvm or encrypted volume.
+* Come up with a formula for swappiness and swap priority.
+* Add zram support.
 
